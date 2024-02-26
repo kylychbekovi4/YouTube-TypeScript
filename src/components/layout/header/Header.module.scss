@@ -1,0 +1,38 @@
+.Header {
+	box-shadow: 0 0 20px white;
+	padding-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.733);
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	backdrop-filter: blur(4px);
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.Logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 20px;
+
+			img {
+				width: 100%;
+				max-width: 120px;
+				height: auto;
+			}
+		}
+		.Options {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 10px 30px;
+			border-radius: 10px;
+		}
+	}
+}

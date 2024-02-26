@@ -1,0 +1,20 @@
+.Footer {
+	box-shadow: 0 0 10px white;
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+		h1 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 40px;
+		}
+
+		h2 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}
